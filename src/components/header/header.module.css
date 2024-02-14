@@ -1,0 +1,30 @@
+.header {
+  background: rgba(105, 105, 105, 0.37);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 4rem;
+}
+
+.headerLogo {
+  font-size: 3rem;
+  color: blue;
+}
+
+.headerNavList {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+}
+
+.headerNavList a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: rgb(18, 18, 59);
+  transition: all 0.3s;
+}
+
+.headerNavList a:hover {
+  color: blue;
+}

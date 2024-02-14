@@ -1,0 +1,30 @@
+.teachers {
+  padding: 2rem 4rem;
+}
+
+.teachers h1 {
+  margin-bottom: 2rem;
+}
+
+.teacherCards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.teacherCard {
+  width: 450px;
+  border: 2px solid gray;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.teacherCard img {
+  width: 100%;
+  height: 350px;
+}
+
+.teacherCard h1 {
+  margin: 0.5rem 1rem;
+}
